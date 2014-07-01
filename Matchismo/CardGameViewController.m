@@ -31,8 +31,8 @@
 
 
 
-- (Deck *)createDeck {
-    return [[PlayingDeck alloc]init];
+- (Deck *)createDeck { // abstract
+    return nil;
 }
 
 - (IBAction)touchCardButton:(UIButton *)sender {
